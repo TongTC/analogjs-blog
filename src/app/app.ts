@@ -7,6 +7,7 @@ import { RouterLink, RouterOutlet } from '@angular/router';
   template: `
     <nav>
       <a routerLink="/">Home</a>
+      <a [routerLink]="['/about']">About me</a>
     </nav>
 
     <router-outlet />

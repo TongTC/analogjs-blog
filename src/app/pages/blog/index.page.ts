@@ -8,7 +8,7 @@ import PostAttributes from '../../post-attributes';
   selector: 'app-blog',
   imports: [RouterLink],
   template: `
-    <h1>Blog Archive</h1>
+    <h1>Semiconductor Contents</h1>
 
     @for (post of posts; track post.attributes.slug) {
     <a [routerLink]="['/blog/', post.attributes.slug]">
