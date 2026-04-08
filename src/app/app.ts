@@ -21,6 +21,9 @@ import { RouterLink, RouterOutlet } from '@angular/router';
     }
 
     nav {
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
       text-align: left;
       padding: 0 0 2rem 0;
     }

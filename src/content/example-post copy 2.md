@@ -1,6 +1,6 @@
 ---
 title: ระบบควบคุมมอเตอร์แบบกระจายศูนย์
-slug: 2022-12-27-my-first-postaa
+slug: 2022-12-27-my-first-pdd
 description: ปัญหาด้านฮาร์ดแวร์ยังซ้ำเติมปัญหาทางด้านซอฟแวร์ กระแสเพื่อขับมอเตอร์และสัญญาณเซนเซอร์..
 coverImage: /multimotor_control.png
 ---

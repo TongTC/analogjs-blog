@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1365" height="768" viewBox="0 0 1365 768" role="img" aria-label="วิวัฒนาการแร็ก AI วันนี้ เทียบกับสถาปัตยกรรม HVDC">
+  <defs>
+    <style>
+      .title { font: 700 58px 'Noto Sans Thai', 'Segoe UI', Tahoma, sans-serif; fill: #1d2f99; }
+      .subtitle { font: 700 30px 'Noto Sans Thai', 'Segoe UI', Tahoma, sans-serif; fill: #1d2f99; }
+      .label { font: 500 22px 'Noto Sans Thai', 'Segoe UI', Tahoma, sans-serif; fill: #525252; }
+      .text { font: 600 40px 'Noto Sans Thai', 'Segoe UI', Tahoma, sans-serif; fill: #198a48; }
+      .small { font: 500 20px 'Noto Sans Thai', 'Segoe UI', Tahoma, sans-serif; fill: #4a4a4a; }
+      .power { font: 500 18px 'Noto Sans Thai', 'Segoe UI', Tahoma, sans-serif; fill: #2b67bc; }
+      .rack-border { fill: #edf7ea; stroke: #2ea156; stroke-width: 6; }
+      .frame { fill: none; stroke: #7b7f90; stroke-width: 5; }
+      .acdc { fill: #e5dcf6; stroke: #7a70c9; stroke-width: 3; }
+      .ps { fill: #d9ebff; stroke: #5c8fd8; stroke-width: 3; }
+      .mid { fill: #dfe5f1; stroke: #5c8fd8; stroke-width: 3; }
+    </style>
+  </defs>
+
+  <rect width="1365" height="768" fill="#f3f5f8"/>
+
+  <text class="title" x="682" y="70" text-anchor="middle">วิวัฒนาการแร็ก AI</text>
+  <text class="title" x="682" y="130" text-anchor="middle">วันนี้ เทียบกับสถาปัตยกรรม HVDC</text>
+
+  <text class="subtitle" x="190" y="200" text-anchor="middle">โซลูชันแร็กปัจจุบัน</text>
+  <text class="subtitle" x="900" y="200" text-anchor="middle">ดาต้าเซ็นเตอร์แรงดันสูง (HVDC)</text>
+
+  <!-- Left rack -->
+  <rect class="frame" x="80" y="240" width="180" height="500" rx="4"/>
+  <rect class="rack-border" x="95" y="255" width="150" height="420"/>
+  <text class="label" x="170" y="315" text-anchor="middle">แบ็คเพลน 48V</text>
+  <text class="text" x="170" y="510" text-anchor="middle">แร็กคอมพิวต์</text>
+  <rect class="acdc" x="95" y="590" width="150" height="110"/>
+  <text class="label" x="170" y="650" text-anchor="middle">AC/DC</text>
+  <rect class="ps" x="95" y="700" width="150" height="35"/>
+  <text class="power" x="170" y="723" text-anchor="middle">เพาเวอร์เชลฟ์</text>
+  <text class="label" x="170" y="752" text-anchor="middle">~ 120 kW</text>
+
+  <!-- Transition -->
+  <text class="subtitle" x="430" y="485" text-anchor="middle">การเปลี่ยนผ่าน</text>
+  <path d="M390 530 L425 565 L390 600" fill="none" stroke="#2c69b8" stroke-width="10"/>
+  <path d="M430 530 L465 565 L430 600" fill="none" stroke="#2c69b8" stroke-width="10"/>
+  <path d="M470 530 L505 565 L470 600" fill="none" stroke="#2c69b8" stroke-width="10"/>
+
+  <!-- Middle power rack -->
+  <text class="label" x="645" y="270" text-anchor="middle">ไฟฟ้า AC</text>
+  <rect x="700" y="245" width="12" height="50" fill="#404040"/>
+
+  <rect class="frame" x="580" y="250" width="205" height="490" rx="4"/>
+  <rect class="acdc" x="600" y="265" width="165" height="70"/>
+  <text class="label" x="682" y="310" text-anchor="middle">AC/DC</text>
+  <rect class="ps" x="600" y="340" width="165" height="55"/>
+  <text class="power" x="682" y="375" text-anchor="middle">เพาเวอร์เชลฟ์</text>
+  <rect class="ps" x="600" y="400" width="165" height="55"/>
+  <text class="power" x="682" y="435" text-anchor="middle">เพาเวอร์เชลฟ์</text>
+
+  <rect class="mid" x="600" y="460" width="165" height="190"/>
+  <text class="subtitle" x="682" y="540" text-anchor="middle">แร็กพลังงาน</text>
+  <text class="subtitle" x="682" y="578" text-anchor="middle">แบบ “Sidecar”</text>
+
+  <rect class="ps" x="600" y="650" width="165" height="55"/>
+  <text class="power" x="682" y="685" text-anchor="middle">เพาเวอร์เชลฟ์</text>
+
+  <rect class="ps" x="600" y="705" width="165" height="35"/>
+  <text class="power" x="682" y="728" text-anchor="middle">เพาเวอร์เชลฟ์</text>
+
+  <text class="label" x="682" y="752" text-anchor="middle">1,000 kW</text>
+
+  <!-- Right compute rack -->
+  <path d="M720 250 H950 V285" fill="none" stroke="#1f5db4" stroke-width="5"/>
+  <text class="label" x="1120" y="274" text-anchor="middle">800V DC หรือ +/- 400V DC</text>
+
+  <rect class="frame" x="860" y="250" width="205" height="490" rx="4"/>
+  <rect class="rack-border" x="880" y="265" width="165" height="455"/>
+  <text class="text" x="963" y="535" text-anchor="middle">แร็กคอมพิวต์</text>
+  <text class="label" x="963" y="752" text-anchor="middle">600-700 kW</text>
+
+  <!-- Goal box -->
+  <rect x="1080" y="470" width="250" height="215" fill="#ececec" stroke="#b0b0b0" stroke-width="2"/>
+  <text x="1095" y="515" class="subtitle" style="font-size:38px;" fill="#2f2f2f">เป้าหมาย:</text>
+  <text x="1095" y="550" class="small">บรรจุแกน GPU ให้ได้มากที่สุด</text>
+  <text x="1095" y="580" class="small">ในแต่ละแร็ก เพื่อช่วยลด</text>
+  <text x="1095" y="610" class="small">เวลาแฝงระหว่าง xPU</text>
+</svg>
